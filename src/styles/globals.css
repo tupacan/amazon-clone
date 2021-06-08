@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+        @apply cursor-pointer hover:underline;
+    }
+
+    .nav-link {
+        @apply p-1 cursor-pointer border border-transparent hover:border-white;
+    }
+
+    .basket-counter {
+        @apply absolute flex items-center justify-center top-0 left-3.5 h-4 w-4 bg-yellow-400 rounded-full font-extrabold text-amazonBlue;
+    }
+
+    .button {
+        @apply p-2 text-sm md:text-base bg-gradient-to-b from-yellow-200 to-yellow-400 border-yellow-300 rounded-sm focus:outline-none ring-1 ring-yellow-300 focus:ring-yellow-500 active:from-yellow-400;
+    }
+}
