@@ -9,12 +9,14 @@ Built for fun and learning purposes.
 -   Redux
 -   Firebase
 -   NextAuth
+-   To be continued...
 
 **Additional packages used:**
 
 -   [heroicons](https://www.npmjs.com/package/heroicons)
 -   [react-responsive-carousel](https://www.npmjs.com/package/react-responsive-carousel)
 -   [react-currency-formatter](https://www.npmjs.com/package/react-currency-formatter)
+-   To be continued...
 
 ---
 
